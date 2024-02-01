@@ -2,9 +2,9 @@ ipipeline {
     agent any
 
     stages {   
-        stage('Master branch') { 
+        stage('devlopment  branch') { 
             steps { 
-               sh 'echo "This is master branch"' 
+               sh 'echo "This is devlopment branch"' 
             }
         }
      
